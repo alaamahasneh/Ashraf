@@ -1,0 +1,140 @@
+html { 
+    background: url(https://media.istockphoto.com/vectors/scientific-molecule-background-for-medicine-science-technology-or-vector-id1040423006) ; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+/* header{
+    background-image: url(http://maduvvareeschool.edu.mv/wp-content/uploads/header-2.png);
+    margin-top: 0px;
+   background-size: cover;
+    height: 145;
+    position: fixed;
+  
+} */
+header{
+    height: 145px;
+    background-color:rgba(18, 165, 55, 0.5);
+}
+nav{
+  margin : 20px;
+}
+
+header nav ul{
+    text-align: center;
+}
+header nav ul li{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+    display: inline-block;
+}
+
+header nav ul li:hover{
+  cursor: grab;
+  color: white;
+  transform: scale(2.1) ;
+  transition: 150ms;
+
+    
+}
+
+  #A{
+    background-color:rgb(30, 163, 52) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+
+}
+#B{
+  background-color:rgb(221, 200, 6) ;
+  padding:15px 25px 15px 25px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+#C{
+  background-color:rgb(255, 72, 0) ;
+  padding:15px 25px 15px 25px;
+  border-radius: 50px;
+  margin-left: 50px;
+
+} 
+#D{
+  background-color:rgb(32, 98, 131) ;
+  padding:15px 25px 15px 25px;
+  border-radius: 50px;
+  margin-left: 50px;
+
+}
+p{
+    text-align-last: center;
+    font-size: 44px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    color: rgba(192, 8, 8, 0.75)
+
+  }
+  main{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* margin: 100px 25px 25px 25px; */
+    border-radius: 25px;
+    /* margin: 40px 200px; */
+    
+    
+  }
+ 
+  .x{
+    margin: 40px 300px;
+    border-radius: 5%;
+    
+  }
+  .y{
+    margin: 40px 160px;
+    border-radius: 5%;
+
+  }
+.z{
+  margin: 40px 360px;
+    border-radius: 5%;
+}
+.w{
+  margin: 40px 300px;
+  border-radius: 5%;
+  
+}
+.s{
+  margin: 40px 300px;
+  border-radius: 5%;
+  
+}
+span{
+  font-size: xx-large;
+}
+#Shope{
+  transition: 500ms;
+  position: absolute;
+  left: 5%;
+  top:10%;
+  z-index: +2;
+}
+.logo{
+  border:2px solid rgb(243, 156, 18);
+  border-radius:3px;
+  text-decoration:none; 
+  display:inline-flex; 
+  align-items:center;
+  align-content:center;
+   margin:20px; 
+   padding:0px 10px;
+   font-weight:900;
+  font-size:1.1em;
+  line-height:1;
+  box-sizing:border-box;
+  height:40px
+
+}
